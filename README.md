@@ -125,7 +125,7 @@ curl -X POST -F 'file=@<image_path>' http://127.0.0.1:5001/upload
 ### Example:
 
 ```bash
-curl -X POST -F 'file=@Data/6131_2021_11_15_13_00_45_1636961445290.jpg' http://127.0.0.1:5001/upload
+curl -X POST -F 'file=@Data/download1.jpg' http://127.0.0.1:5001/upload
 ```
 
 The response will contain a link to the processed image and the JSON output showing the detected products and their assigned groups.
@@ -137,7 +137,7 @@ The response will contain a link to the processed image and the JSON output show
 The project is organized as follows:
 
 ```
-AIPipeline/
+SmartShelf/
 ├── Data/                 # Sample images for testing
 ├── ModelTraining/        # YOLO training notebook and weights
 ├── Results/              # Detection results and JSON outputs
