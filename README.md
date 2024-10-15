@@ -36,13 +36,13 @@ conda create --name <environment_name> python=<python_version>
 Example used in this implementation:
 
 ```bash
-conda create --name env_AIPipeline python=3.11
+conda create --name env_SmartShelf python=3.11
 ```
 
 Activate the environment:
 
 ```bash
-conda activate env_AIPipeline
+conda activate env_SmartShelf
 ```
 
 ### 2. **Install the Dependencies**
