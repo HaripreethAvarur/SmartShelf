@@ -1,5 +1,5 @@
-# SmartShelf
-An Automated Detection and Grouping of Retail Products
+# SmartShelf: An Automated Detection and Grouping of Retail Products
+An AI-powered pipeline for automated retail product detection and grouping using YOLOv10 and deep learning. This project leverages a custom-trained YOLO model on the SKU-110K dataset for object detection, combined with ResNet50, SSIM, and HDBSCAN for accurate product grouping. Built with Flask, the solution offers a web-based interface for image uploads, real-time detection, and clustering of products on supermarket shelves, making it ideal for inventory management and retail analytics.
 
 ---
 
